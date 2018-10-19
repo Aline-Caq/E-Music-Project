@@ -8,895 +8,871 @@
   <title></title>
 </head>
 <body>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   <!-- Début Aymeric -->
   <header>
     <div class="row">
       <div class="col">
         <nav class="navbar">
-         <span class="navbar-brand mb-0 h1"><img src="assets/img/manu.png" alt="MANU" id="manuImg"></span>
+          <span class="navbar-brand mb-0 h1"><img src="assets/img/manu.png" alt="MANU" id="manuImg"></span>
           <form class="form-inline m-auto">
-           <input class="form-control mr-sm-2" type="search" size="50" placeholder="Je cherche...">
+            <input class="form-control mr-sm-2" type="search" size="50" placeholder="Je cherche...">
             <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Recherche</button>
             <a href="file:///home/xricoacm/ExoManu/projet%20E-commerce/index.html#"><img src="assets/img/panier1.png" alt="PANIER" id="panierVide"></a>
           </form>
         </nav>
-=======
-  <!-- Aline Début Fenetre Modale pour Panier -->
-  <!-- Bouton panier -->
-  <button type="button" class="btn btn-danger" id="guitar" data-toggle="modal" data-target="#modal">Acheter la guitare 1</button>
-  <button type="button" class="btn btn-danger" id="guitar2" data-toggle="modal" data-target="#modal">Acheter guitare 2</button>
-  <button type="button" class="btn btn-danger" id="guitar3" data-toggle="modal" data-target="#modal">Acheter guitare 3</button>
-  <!-- Fenetre Modal -->
-  <div class="modal id" bouton=data-target="#modal" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <!-- Titre top Fenetre Modale -->
-          <h1 class="modal-title" id="modalLabel">Panier</h1>
+        <div class="row" id="navGauche">
+          <div class="col-md-3">
+            <h4 id="categ">CATEGORIES</h4>
+            <nav class="nav flex-column">
+              <a class="nav-link" id="decalGuitare" href="#"><img src="assets/img/guitare1.png" id="guitareimg" alt="GUITARE"> GUITARE/BASSE</a>
+              <a class="nav-link" id="decalMicro" href="#"><img src="assets/img/micro1.png" id="microimg" alt="MICRO"> MICRO-ENCEINTE</a>
+              <a class="nav-link" id="decalPiano" href="#"><img src="assets/img/piano1.png" id="pianoimg" alt="PIANO"> PIANO/SYNTHE</a>
+              <a class="nav-link" id="decalBatterie" href="#"><img src="assets/img/batterie1.ico" id="batterieimg" alt="BATTERIE"> BATTERIE</a>
+            </nav>
+          </div>
         </div>
-        <!-- Body du Modal -->
-        <div class="modal-body">
-          <!-- Card 1 panier -->
-          <div class="card" style="width: 10rem;">
-            <img class="card-img-top" src="assets/img/esp.jpg" alt="photo de la guitare ESP">
-            <div class="card-body">
-              <h5 class="card-title">ESP E-II Eclipse BB BLKS</h5>
-              <p class="card-text">Superbe guitare au son blues net et précis.</p>
-              <p class="price">800€</p>
-              <button type="button" class="btn btn-danger" id="deletecard1" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite1" name="nombre" value="" placeholder="Quantité">
+      </header>
+      <!-- Debut caroussel promo nico   -->
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel promo col-9 offset-3 slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a class="carousel-lien" href="#titre-piano">
+                <img class="d-block w-100 carousel-img-promo" src="assets/img/synthe-slider.jpg" alt="synthé">
+                <div class="carousel-caption">
+                  <h3 class="caption">Promo de fou sur les synthés</h3><hr class="hr-carousel">
+                  <p class="caption">Cliquez ici pour voir !!</p>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a class="carousel-lien" href="#titre-guitare">
+                <img class="d-block w-100 carousel-img-promo" src="assets/img/guitar-slider.png" alt="guitar">
+                <div class="carousel-caption">
+                  <h3 class="caption">Nos plus belle guitares</h3><hr class="hr-carousel">
+                  <p class="caption">C'est par ici !</p>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a class="carousel-lien" href="#titre-batterie">
+                <img class="d-block w-100 carousel-img-promo" src="assets/img/drum-slider.jpg" alt="drum">
+                <div class="carousel-caption">
+                  <h3 class="caption">Nos batteries</h3><hr class="hr-carousel">
+                  <p class="caption">Vaut mieux taper sur des percus que sur les murs</p>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Fin carousel promo -->
+      <!-- Début banderoles partenaires Nico-->
+      <div class="col-9 offset-3 text-center">
+        <h3 class="parte">Partenaires</h3>
+        <a href="https://www.amiens.fr/" target="_blank"><img src="assets/img/amiens.png" class="img-parte" alt="amiens"></a>
+        <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/br" target="_blank"><img src="assets/img/br.png" class="img-parte" alt="br"></a>
+        <a href="http://www.fnsf.org/" target="_blank"><img src="assets/img/fnsf.jpg" class="img-parte" alt="fnsf"></a>
+        <a href="https://www.dell.com/fr-fr" target="_blank"><img src="assets/img/dell.png" class="img-parte" alt="dell"></a>
+        <a href="https://www.mcdonalds.fr/" target="_blank"><img src="assets/img/mcdo.png" class="img-parte" alt="mcdo"></a>
+        <a href="https://www.pole-emploi.fr/accueil/" target="_blank"><img src="assets/img/poleemploi.png" class="img-parte" alt="pole emploi"></a>
+        <a href="https://www.u-picardie.fr/universite-de-picardie-jules-verne-290591.kjsp" target="_blank"><img src="assets/img/upjv.jpg" class="img-parte" alt="upjv"></a>
+      </div>
+      <!-- Fin banderoles partenaires Nico -->
+      <!-- Début partie Hans -->
+      <!-- Guitares/Basses -->
+      <div class="container">
+        <div class="row" id="titre-guitare">
+          <img src="assets/img/banniere-guitare.jpg" alt="Bannière de la catégorie guitares/basses" class="col-9 offset-3" id="banguitar">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/esp.jpg" alt="photo de la guitare ESP">
+              <div class="card-body">
+                <h5 class="card-title">ESP E-II Eclipse BB BLKS</h5>
+                <p class="card-text">Superbe guitare au son blues net et précis.</p>
+                <p class="price">800€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Ajouter au panier</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 2 panier -->
-          <div class="card" id="card2" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 2</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard2" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite2" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/gibson.jpg" alt="photo de la guitare Gibson">
+              <div class="card-body">
+                <h5 class="card-title">Gibson Les Paul Standard HP 2019 BBF</h5>
+                <p class="card-text">Gibson Les Paul... ai-je besoin d'en dire d'avantage?</p>
+                <p class="price">1600€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar2">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 3 panier -->
-          <div class="card" id="card3" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 3</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard3" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite3" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/prs.jpg" alt="Photo de la guitare PRS">
+              <div class="card-body">
+                <h5 class="card-title">PRS Tremonti Grey Black</h5>
+                <p class="card-text">Un magnifique instrument qui ravira les jeunes rockeurs comme les vieux bluesmen solitaires</p>
+                <p class="price">1000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar3">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 4 panier -->
-          <div class="card" id="card4" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 4</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard4" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite4" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/epiphone.jpg" alt="Photo de la guitare Epiphone">
+              <div class="card-body">
+                <h5 class="card-title">Epiphone Les Paul Custom Pro AWH</h5>
+                <p class="card-text">Epiphone à fait ses preuves. Vous voulez du gros son? N'allez pas chercher plus loin!</p>
+                <p class="price">1250€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar4">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 5 panier -->
-          <div class="card" id="card5" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 5</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard5" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite5" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/harleybentonbasse.jpg" alt="Photo de la basse Harley Benton">
+              <div class="card-body">
+                <h5 class="card-title">Harley Benton HBZ-2004 Deluxe Series</h5>
+                <p class="card-text">L'édition deluxe d'un instrument unique!</p>
+                <p class="price">1100€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 6 panier -->
-          <div class="card" id="card6" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 6</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard6" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite6" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/fenderbasse.jpg" alt="Photo de la basse Fender">
+              <div class="card-body">
+                <h5 class="card-title">Fender AM Elite Jazz Bass EB 3TSB</h5>
+                <p class="card-text">Une basse au son jazzy exceptionnel. Un régal pour les dimanches pluvieux!</p>
+                <p class="price">1600€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass2">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 7 panier -->
-          <div class="card" id="card7" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 7</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard7" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite7" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/sandbergbasse.jpg" alt="Photo de la basse Sandberg">
+              <div class="card-body">
+                <h5 class="card-title">Sandberg California II TM4 BLB</h5>
+                <p class="card-text">La toute jeune firme californienne nous livre la nouvelle version de sa basse au son ska</p>
+                <p class="price">900€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass3">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 8 panier -->
-          <div class="card" id="card8" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 8</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard8" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite8" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/deanguitarsbasse.jpg" alt="Photo de la basse Dean Guitars">
+              <div class="card-body">
+                <h5 class="card-title">Dean Guitars Juggernaut RW Classic Black</h5>
+                <p class="card-text">Juggernaut signifie mastodonte. Un instrument pour les bassistes qui en on marre du second plan!</p>
+                <p class="price">2000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass4">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 9 panier -->
-          <div class="card" id="card9" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 9</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard9" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite9" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <!--  -->
+        <!-- Micros/Enceintes -->
+        <!--  -->
+        <div class="row" id="titre-micro">
+          <div class="col-9 offset-3">
+            <img src="assets/img/banniere-micro.jpg" alt="Bannière de la catégorie micros/enceintes">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/rodemicro.jpg" alt="Photo du micro Rode">
+              <div class="card-body">
+                <h5 class="card-title">Rode NT1-A Complete Vocal Recording</h5>
+                <p class="card-text">Pour des prises de voix au cordeau, pros et intenses!</p>
+                <p class="price">1200€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 10 panier -->
-          <div class="card" id="card10" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 10</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard10" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite10" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/shuremicro.jpg" alt="Photo du micro Shure">
+              <div class="card-body">
+                <h5 class="card-title">Shure SM7B</h5>
+                <p class="card-text">Shure, l'éclat du cristal, la puissance du volcan!</p>
+                <p class="price">5000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro2">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 11 panier -->
-          <div class="card" id="card11" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 11</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard11" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite11" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/tbonemicro.jpg" alt="Photo du micro T.Bone">
+              <div class="card-body">
+                <h5 class="card-title">The T.Bone SC 440 USB</h5>
+                <p class="card-text">Idéal pour l'enregistrement comme pour le live, THE micro à avoir!</p>
+                <p class="price">5200€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro3">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 12 panier -->
-          <div class="card" id="card12" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card 12</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard12" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite12" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 10rem;">
+              <img class="card-img-top" src="assets/img/akgmicro.jpg" alt="Photo du micro AKG">
+              <div class="card-body">
+                <h5 class="card-title">AKG C414 XLS</h5>
+                <p class="card-text">Un design simple, un résultat efficace.</p>
+                <p class="price">3000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro4">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 13 panier -->
-          <div class="card" id="card13" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard13" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite13" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/yamahaenceinte.jpg" alt="Photo des enceintes Yamaha">
+              <div class="card-body">
+                <h5 class="card-title">Yamaha Stagepas 400BT</h5>
+                <p class="card-text">Pour un son d'une puissance inégalable!</p>
+                <p class="price">6000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 14 panier -->
-          <div class="card" id="card14" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard14" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite14" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/behringerenceintes.jpg" alt="Photo des enceintes Behringer">
+              <div class="card-body">
+                <h5 class="card-title">Behringer EPS500MP3</h5>
+                <p class="card-text">Quand qualité rime avec budget!</p>
+                <p class="price">2000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers2">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 15 panier -->
-          <div class="card" id="card15" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard15" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite15" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/tampenceintes.jpg" alt="Photo des enceintes T.Amp">
+              <div class="card-body">
+                <h5 class="card-title">The T.Amp PA 4080 Package</h5>
+                <p class="card-text">Un son rond et chaud, pour que votre voix étonne à des kilomètres à la ronde!</p>
+                <p class="price">7500€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers3">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 16 panier -->
-          <div class="card" id="card16" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard16" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite16" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/hkenceintes.jpg" alt="Photo des enceintes HK">
+              <div class="card-body">
+                <h5 class="card-title">HK audio premium PR Mixer Bundle</h5>
+                <p class="card-text">Les enceintes et la table de mixage qui vont bien!</p>
+                <p class="price">10000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers4">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 17 panier -->
-          <div class="card" id="card17" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard17" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite17" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <!--  -->
+        <!-- Pianos/Synthés -->
+        <!--  -->
+        <div class="row" id="titre-piano">
+          <div class="col-9 offset-3">
+            <img src="assets/img/bannierepiano.jpg" alt="Bannière de la catégorie pianos/synthés">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/kawaipiano.jpg" alt="Photo du piano kawai">
+              <div class="card-body">
+                <h5 class="card-title">Kawai K15 E E/P Piano</h5>
+                <p class="card-text">Idéal pour se (re)mettre à l'apprentissage de Bach et des autres!</p>
+                <p class="price">6000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 18 panier -->
-          <div class="card" id="card18" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard18" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite18" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/yamahapiano.jpg" alt="Photo du piano Yamaha">
+              <div class="card-body">
+                <h5 class="card-title">Yamaha B1PE</h5>
+                <p class="card-text">Un piano de qualité professionnelle</p>
+                <p class="price">12000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano2">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 19 panier -->
-          <div class="card" id="card19" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard19" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite19" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/seilerpiano.jpg" alt="Photo du piano Seiler">
+              <div class="card-body">
+                <h5 class="card-title">Seiler 116 Primus</h5>
+                <p class="card-text">Plus qu'un piano, un son! Une identité!</p>
+                <p class="price">8000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano3">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 20 panier -->
-          <div class="card" id="card20" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard20" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite20" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/steinwaypiano.jpg" alt="Photo du piano Steinway">
+              <div class="card-body">
+                <h5 class="card-title">Steinway & Sons Piano</h5>
+                <p class="card-text">Steinway & Sons, c'est le son des saloons mal famés! Pour les voyous, qui ont des fêlures.</p>
+                <p class="price">9500€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano4">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 21 panier -->
-          <div class="card" id="card21" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard21" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite21" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/yamahasynth.jpg" alt="Photo du synthé Yamaha">
+              <div class="card-body">
+                <h5 class="card-title">Yamaha Genos</h5>
+                <p class="card-text">Le clavier-arrangeur des fans de new-wave. On met son blaser et ses lunettes noires, et on s'éclate!</p>
+                <p class="price">3550€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 22 panier -->
-          <div class="card" id="card22" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard22" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite22" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/korgsynth.jpg" alt="Photo du synthé Korg">
+              <div class="card-body">
+                <h5 class="card-title">Korg PA 4x61 International</h5>
+                <p class="card-text">Alors là, on parle sérieux! Ce clavier équipe les plus grands studios et à connu les plus belles scènes du monde!</p>
+                <p class="price">15000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth2">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 23 panier -->
-          <div class="card" id="card23" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard23" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite23" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/ketronsynth.jpg" alt="Photo du synthé Ketron">
+              <div class="card-body">
+                <h5 class="card-title">Ketron SD9</h5>
+                <p class="card-text">Pour les fans de Nine Inch Nails et Marilyn Manson.</p>
+                <p class="price">9600€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth3">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 24 panier -->
-          <div class="card" id="card24" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard24" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite24" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/thomannsynth.jpg" alt="Photo du synthé Thomann">
+              <div class="card-body">
+                <h5 class="card-title">Thomann SP-5600</h5>
+                <p class="card-text">Franchement, n'achetez pas ce truc. Ce synthé est vraiment pourri.</p>
+                <p class="price">100€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth4">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 25 panier -->
-          <div class="card" id="card25" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard25" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite25" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <!--  -->
+        <!-- Batterie -->
+        <!--  -->
+        <div class="row" id="titre-batterie">
+          <div class="col-9 offset-3">
+            <img src="assets/img/banniere-drum.jpg" alt="Bannière de la catégorie batterie">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/milleniumbatterie.jpg" alt="Photo de la batterie Millenium">
+              <div class="card-body">
+                <h5 class="card-title">Millenium MX222WR Standard Set</h5>
+                <p class="card-text">Un régal pour nos amis batteurs. Le kit dont ils rêvent tous!</p>
+                <p class="price">2800€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 26 panier -->
-          <div class="card" id="card26" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard26" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite26" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/ddrumbatterie.jpg" alt="Photo de la batterie Ddrum">
+              <div class="card-body">
+                <h5 class="card-title">Ddrum hybrid kit Satin Satin Black</h5>
+                <p class="card-text">Un kit débutant idéal pour se lancer!</p>
+                <p class="price">2400€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums2">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 27 panier -->
-          <div class="card" id="card27" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard27" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite27" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/mapexbatterie.jpg" alt="Photo de la batterie Mapex">
+              <div class="card-body">
+                <h5 class="card-title">Mapex Tornado Stand Zildjian Set BK</h5>
+                <p class="card-text">Le kit des géants! Vous jouer dans un groupe de métal? Voiçi votre nouvel ami!</p>
+                <p class="price">16000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums3">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 28 panier -->
-          <div class="card" id="card28" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard28" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite28" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/tamabatterie.jpg" alt="Photo de la batterie Tama">
+              <div class="card-body">
+                <h5 class="card-title">Tama Impererialstar Standard BBOB</h5>
+                <p class="card-text">Vous êtes dépressif? Vous avez les cheveux longs et gras? Ce kit vous aidera à intégrer un vrai groupe de grunge!</p>
+                <p class="price">8800€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums4">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 29 panier -->
-          <div class="card" id="card29" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard29" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite29" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/startonebatterie.jpg" alt="Photo de la batterie Startone">
+              <div class="card-body">
+                <h5 class="card-title">Startone Star Drum set Standard</h5>
+                <p class="card-text">Tout est dans le nom! Et dans le prix aussi ;)</p>
+                <p class="price">22000€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums5">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 30 panier -->
-          <div class="card" id="card30" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <button type="button" class="btn btn-danger" id="deletecard30" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <input type="number" class="quantite" id="quantite30" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/pearlbatterie.jpg" alt="Photo de la batterie Pearl">
+              <div class="card-body">
+                <h5 class="card-title">Pearl EXX725BR/C Export Chrome</h5>
+                <p class="card-text">Pearl ruine les oreilles de millons de parents à travers le monde. Et les votres?</p>
+                <p class="price">9999,99€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums6">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 31 panier -->
-          <div class="card" id="card31" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard31" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite31" name="nombre" value="" placeholder="Quantité">
+        </div>
+        <div class="row">
+          <div class="col-3 offset-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/dwbatterie.jpg" alt="Photo de la batterie DW">
+              <div class="card-body">
+                <h5 class="card-title">DW PDP Mainstage BK</h5>
+                <p class="card-text">La star de nos produits! Le MUST pour les batteurs!!!</p>
+                <p class="price">123456€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums7">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Card 32 panier -->
-          <div class="card" id="card32" style="width: 18rem;"hidden>
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Acheter</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-              <button type="button" class="btn btn-danger" id="deletecard32" data-toggle="modal" data-target="#modal">Supprimer</button>
-              <input type="number" class="quantite" id="quantite32" name="nombre" value="" placeholder="Quantité">
+          <div class="col-3">
+            <div class="card" style="width: 15rem;">
+              <img class="card-img-top" src="assets/img/pearl2batterie.jpg" alt="Photo de la batterie Pearl2">
+              <div class="card-body">
+                <h5 class="card-title">Pearl Roadshow Fusion Jet Black</h5>
+                <p class="card-text">J'écris n'imp, vous ne lirez même pas bande d'ingrats!</p>
+                <p class="price">0€</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums8">Ajouter au panier</button>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
             </div>
           </div>
-          <!-- Bouton Achat ou Retour Footer Modal -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Continuer</button>
-            <button type="button" class="btn btn-danger">Commander</button>
-          </div>
-        </div>
->>>>>>> aline-caq
-      </div>
-    </div>
-      <div class="row" id="navGauche">
-        <div class="col-md-3">
-          <h4 id="categ">CATEGORIES</h4>
-           <nav class="nav flex-column">
-            <a class="nav-link" id="decalGuitare" href="#"><img src="assets/img/guitare1.png" id="guitareimg" alt="GUITARE"> GUITARE/BASSE</a>
-            <a class="nav-link" id="decalMicro" href="#"><img src="assets/img/micro1.png" id="microimg" alt="MICRO"> MICRO-ENCEINTE</a>
-            <a class="nav-link" id="decalPiano" href="#"><img src="assets/img/piano1.png" id="pianoimg" alt="PIANO"> PIANO/SYNTHE</a>
-            <a class="nav-link" id="decalBatterie" href="#"><img src="assets/img/batterie1.ico" id="batterieimg" alt="BATTERIE"> BATTERIE</a>
-           </nav>
-          </div>
-        </div>
-  </header>
-=======
-  <!-- Debut caroussel promo nico   -->
-  <div id="carouselExampleIndicators" class="carousel promo col-9 offset-3 slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-          <a class="carousel-lien" href="#titre-piano">
-      <img class="d-block w-100 carousel-img-promo" src="assets/img/synthe-slider.jpg" alt="synthé">
-      <div class="carousel-caption">
-   <h3 class="caption">Promo de fou sur les synthés</h3><hr class="hr-carousel">
-  <p class="caption">Cliquez ici pour voir !!</p>
-    </a>
-</div>
-    </div>
-    <div class="carousel-item">
-      <a class="carousel-lien" href="#titre-guitare">
-      <img class="d-block w-100 carousel-img-promo" src="assets/img/guitar-slider.png" alt="guitar">
-      <div class="carousel-caption">
-   <h3 class="caption">Nos plus belle guitares</h3><hr class="hr-carousel">
-  <p class="caption">C'est par ici !</p>
-    </a>
-</div>
-    </div>
-    <div class="carousel-item">
-      <a class="carousel-lien" href="#titre-batterie">
-      <img class="d-block w-100 carousel-img-promo" src="assets/img/drum-slider.jpg" alt="drum">
-      <div class="carousel-caption">
-  <h3 class="caption">Nos batteries</h3><hr class="hr-carousel">
-  <p class="caption">Vaut mieux taper sur des percus que sur les murs</p>
-    </a>
-</div>
-    </div>
-  </a>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!-- Fin carousel promo -->
-<!-- Début banderoles partenaires Nico-->
-<div class="col-9 offset-3 text-center">
-<h3 class="parte">Partenaires</h3>
-<a href="https://www.amiens.fr/" target="_blank"><img src="assets/img/amiens.png" class="img-parte" alt="amiens"></a>
-<a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/br" target="_blank"><img src="assets/img/br.png" class="img-parte" alt="br"></a>
-<a href="http://www.fnsf.org/" target="_blank"><img src="assets/img/fnsf.jpg" class="img-parte" alt="fnsf"></a>
-<a href="https://www.dell.com/fr-fr" target="_blank"><img src="assets/img/dell.png" class="img-parte" alt="dell"></a>
-<a href="https://www.mcdonalds.fr/" target="_blank"><img src="assets/img/mcdo.png" class="img-parte" alt="mcdo"></a>
-<a href="https://www.pole-emploi.fr/accueil/" target="_blank"><img src="assets/img/poleemploi.png" class="img-parte" alt="pole emploi"></a>
-<a href="https://www.u-picardie.fr/universite-de-picardie-jules-verne-290591.kjsp" target="_blank"><img src="assets/img/upjv.jpg" class="img-parte" alt="upjv"></a>
-</div>
-<!-- Fin banderoles partenaires Nico -->
-
-
->>>>>>> origin/nico_personne
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-=======
-  <!-- Début partie Hans -->
-  <!--  -->
-  <!-- Guitares/Basses -->
-  <!--  -->
-  <div class="container">
-    <div class="row" id="titre-guitare">
-        <img src="assets/img/banniere-guitare.jpg" alt="Bannière de la catégorie guitares/basses" class="col-9 offset-3" id="banguitar">
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/esp.jpg" alt="photo de la guitare ESP">
-          <div class="card-body">
-            <h5 class="card-title">ESP E-II Eclipse BB BLKS</h5>
-            <p class="card-text">Superbe guitare au son blues net et précis.</p>
-            <p class="price">800€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Ajouter au panier</a> -->
-          </div>
         </div>
       </div>
-      <div class="col-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/gibson.jpg" alt="photo de la guitare Gibson">
-          <div class="card-body">
-            <h5 class="card-title">Gibson Les Paul Standard HP 2019 BBF</h5>
-            <p class="card-text">Gibson Les Paul... ai-je besoin d'en dire d'avantage?</p>
-            <p class="price">1600€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar2">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/prs.jpg" alt="Photo de la guitare PRS">
-          <div class="card-body">
-            <h5 class="card-title">PRS Tremonti Grey Black</h5>
-            <p class="card-text">Un magnifique instrument qui ravira les jeunes rockeurs comme les vieux bluesmen solitaires</p>
-            <p class="price">1000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar3">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/epiphone.jpg" alt="Photo de la guitare Epiphone">
-          <div class="card-body">
-            <h5 class="card-title">Epiphone Les Paul Custom Pro AWH</h5>
-            <p class="card-text">Epiphone à fait ses preuves. Vous voulez du gros son? N'allez pas chercher plus loin!</p>
-            <p class="price">1250€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="guitar4">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/harleybentonbasse.jpg" alt="Photo de la basse Harley Benton">
-          <div class="card-body">
-            <h5 class="card-title">Harley Benton HBZ-2004 Deluxe Series</h5>
-            <p class="card-text">L'édition deluxe d'un instrument unique!</p>
-            <p class="price">1100€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/fenderbasse.jpg" alt="Photo de la basse Fender">
-          <div class="card-body">
-            <h5 class="card-title">Fender AM Elite Jazz Bass EB 3TSB</h5>
-            <p class="card-text">Une basse au son jazzy exceptionnel. Un régal pour les dimanches pluvieux!</p>
-            <p class="price">1600€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass2">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/sandbergbasse.jpg" alt="Photo de la basse Sandberg">
-          <div class="card-body">
-            <h5 class="card-title">Sandberg California II TM4 BLB</h5>
-            <p class="card-text">La toute jeune firme californienne nous livre la nouvelle version de sa basse au son ska</p>
-            <p class="price">900€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass3">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/deanguitarsbasse.jpg" alt="Photo de la basse Dean Guitars">
-          <div class="card-body">
-            <h5 class="card-title">Dean Guitars Juggernaut RW Classic Black</h5>
-            <p class="card-text">Juggernaut signifie mastodonte. Un instrument pour les bassistes qui en on marre du second plan!</p>
-            <p class="price">2000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="bass4">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--  -->
-    <!-- Micros/Enceintes -->
-    <!--  -->
-    <div class="row" id="titre-micro">
-      <div class="col-9 offset-3">
-        <img src="assets/img/banniere-micro.jpg" alt="Bannière de la catégorie micros/enceintes">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/rodemicro.jpg" alt="Photo du micro Rode">
-          <div class="card-body">
-            <h5 class="card-title">Rode NT1-A Complete Vocal Recording</h5>
-            <p class="card-text">Pour des prises de voix au cordeau, pros et intenses!</p>
-            <p class="price">1200€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/shuremicro.jpg" alt="Photo du micro Shure">
-          <div class="card-body">
-            <h5 class="card-title">Shure SM7B</h5>
-            <p class="card-text">Shure, l'éclat du cristal, la puissance du volcan!</p>
-            <p class="price">5000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro2">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/tbonemicro.jpg" alt="Photo du micro T.Bone">
-          <div class="card-body">
-            <h5 class="card-title">The T.Bone SC 440 USB</h5>
-            <p class="card-text">Idéal pour l'enregistrement comme pour le live, THE micro à avoir!</p>
-            <p class="price">5200€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro3">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="assets/img/akgmicro.jpg" alt="Photo du micro AKG">
-          <div class="card-body">
-            <h5 class="card-title">AKG C414 XLS</h5>
-            <p class="card-text">Un design simple, un résultat efficace.</p>
-            <p class="price">3000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="micro4">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/yamahaenceinte.jpg" alt="Photo des enceintes Yamaha">
-          <div class="card-body">
-            <h5 class="card-title">Yamaha Stagepas 400BT</h5>
-            <p class="card-text">Pour un son d'une puissance inégalable!</p>
-            <p class="price">6000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/behringerenceintes.jpg" alt="Photo des enceintes Behringer">
-          <div class="card-body">
-            <h5 class="card-title">Behringer EPS500MP3</h5>
-            <p class="card-text">Quand qualité rime avec budget!</p>
-            <p class="price">2000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers2">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/tampenceintes.jpg" alt="Photo des enceintes T.Amp">
-          <div class="card-body">
-            <h5 class="card-title">The T.Amp PA 4080 Package</h5>
-            <p class="card-text">Un son rond et chaud, pour que votre voix étonne à des kilomètres à la ronde!</p>
-            <p class="price">7500€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers3">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/hkenceintes.jpg" alt="Photo des enceintes HK">
-          <div class="card-body">
-            <h5 class="card-title">HK audio premium PR Mixer Bundle</h5>
-            <p class="card-text">Les enceintes et la table de mixage qui vont bien!</p>
-            <p class="price">10000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="speakers4">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--  -->
-    <!-- Pianos/Synthés -->
-    <!--  -->
-    <div class="row" id="titre-piano">
-      <div class="col-9 offset-3">
-        <img src="assets/img/bannierepiano.jpg" alt="Bannière de la catégorie pianos/synthés">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/kawaipiano.jpg" alt="Photo du piano kawai">
-          <div class="card-body">
-            <h5 class="card-title">Kawai K15 E E/P Piano</h5>
-            <p class="card-text">Idéal pour se (re)mettre à l'apprentissage de Bach et des autres!</p>
-            <p class="price">6000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/yamahapiano.jpg" alt="Photo du piano Yamaha">
-          <div class="card-body">
-            <h5 class="card-title">Yamaha B1PE</h5>
-            <p class="card-text">Un piano de qualité professionnelle</p>
-            <p class="price">12000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano2">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/seilerpiano.jpg" alt="Photo du piano Seiler">
-          <div class="card-body">
-            <h5 class="card-title">Seiler 116 Primus</h5>
-            <p class="card-text">Plus qu'un piano, un son! Une identité!</p>
-            <p class="price">8000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano3">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/steinwaypiano.jpg" alt="Photo du piano Steinway">
-          <div class="card-body">
-            <h5 class="card-title">Steinway & Sons Piano</h5>
-            <p class="card-text">Steinway & Sons, c'est le son des saloons mal famés! Pour les voyous, qui ont des fêlures.</p>
-            <p class="price">9500€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="piano4">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      <!-- Fin de partie Hans -->
+      <!-- Aline Début Fenetre Modale pour Panier -->
+      <!-- Fenetre Modal -->
+      <div class="modal id" bouton=data-target="#modal" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- Titre top Fenetre Modale -->
+              <h1 class="modal-title" id="modalLabel">Panier</h1>
+            </div>
+            <!-- Body du Modal -->
+            <div class="modal-body">
+              <!-- Card 1 panier -->
+              <div class="card" style="width: 10rem;">
+                <img class="card-img-top" src="assets/img/esp.jpg" alt="photo de la guitare ESP">
+                <div class="card-body">
+                  <h5 class="card-title">ESP E-II Eclipse BB BLKS</h5>
+                  <p class="card-text">Superbe guitare au son blues net et précis.</p>
+                  <p class="price">800€</p>
+                  <button type="button" class="btn btn-danger" id="deletecard1" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite1" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 2 panier -->
+              <div class="card" id="card2" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 2</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard2" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite2" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 3 panier -->
+              <div class="card" id="card3" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 3</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard3" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite3" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 4 panier -->
+              <div class="card" id="card4" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 4</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard4" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite4" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 5 panier -->
+              <div class="card" id="card5" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 5</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard5" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite5" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 6 panier -->
+              <div class="card" id="card6" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 6</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard6" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite6" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 7 panier -->
+              <div class="card" id="card7" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 7</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard7" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite7" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 8 panier -->
+              <div class="card" id="card8" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 8</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard8" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite8" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 9 panier -->
+              <div class="card" id="card9" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 9</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard9" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite9" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 10 panier -->
+              <div class="card" id="card10" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 10</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard10" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite10" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 11 panier -->
+              <div class="card" id="card11" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 11</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard11" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite11" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 12 panier -->
+              <div class="card" id="card12" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card 12</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard12" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite12" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 13 panier -->
+              <div class="card" id="card13" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard13" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite13" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 14 panier -->
+              <div class="card" id="card14" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard14" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite14" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 15 panier -->
+              <div class="card" id="card15" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard15" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite15" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 16 panier -->
+              <div class="card" id="card16" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard16" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite16" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 17 panier -->
+              <div class="card" id="card17" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard17" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite17" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 18 panier -->
+              <div class="card" id="card18" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard18" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite18" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 19 panier -->
+              <div class="card" id="card19" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard19" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite19" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 20 panier -->
+              <div class="card" id="card20" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard20" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite20" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 21 panier -->
+              <div class="card" id="card21" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard21" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite21" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 22 panier -->
+              <div class="card" id="card22" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard22" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite22" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 23 panier -->
+              <div class="card" id="card23" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard23" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite23" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 24 panier -->
+              <div class="card" id="card24" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                  <button type="button" class="btn btn-danger" id="deletecard24" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite24" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 25 panier -->
+              <div class="card" id="card25" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard25" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite25" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 26 panier -->
+              <div class="card" id="card26" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard26" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite26" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 27 panier -->
+              <div class="card" id="card27" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard27" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite27" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 28 panier -->
+              <div class="card" id="card28" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard28" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite28" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 29 panier -->
+              <div class="card" id="card29" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard29" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite29" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 30 panier -->
+              <div class="card" id="card30" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard30" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite30" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 31 panier -->
+              <div class="card" id="card31" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard31" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite31" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Card 32 panier -->
+              <div class="card" id="card32" style="width: 18rem;"hidden>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Acheter</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-danger" id="deletecard32" data-toggle="modal" data-target="#modal">Supprimer</button>
+                  <input type="number" class="quantite" id="quantite32" name="nombre" value="" placeholder="Quantité">
+                </div>
+              </div>
+              <!-- Bouton Achat ou Retour Footer Modal -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Continuer</button>
+                <button type="button" class="btn btn-danger">Commander</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/yamahasynth.jpg" alt="Photo du synthé Yamaha">
-          <div class="card-body">
-            <h5 class="card-title">Yamaha Genos</h5>
-            <p class="card-text">Le clavier-arrangeur des fans de new-wave. On met son blaser et ses lunettes noires, et on s'éclate!</p>
-            <p class="price">3550€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
         </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/korgsynth.jpg" alt="Photo du synthé Korg">
-          <div class="card-body">
-            <h5 class="card-title">Korg PA 4x61 International</h5>
-            <p class="card-text">Alors là, on parle sérieux! Ce clavier équipe les plus grands studios et à connu les plus belles scènes du monde!</p>
-            <p class="price">15000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth2">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/ketronsynth.jpg" alt="Photo du synthé Ketron">
-          <div class="card-body">
-            <h5 class="card-title">Ketron SD9</h5>
-            <p class="card-text">Pour les fans de Nine Inch Nails et Marilyn Manson.</p>
-            <p class="price">9600€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth3">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/thomannsynth.jpg" alt="Photo du synthé Thomann">
-          <div class="card-body">
-            <h5 class="card-title">Thomann SP-5600</h5>
-            <p class="card-text">Franchement, n'achetez pas ce truc. Ce synthé est vraiment pourri.</p>
-            <p class="price">100€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="synth4">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--  -->
-    <!-- Batterie -->
-    <!--  -->
-    <div class="row" id="titre-batterie">
-      <div class="col-9 offset-3">
-        <img src="assets/img/banniere-drum.jpg" alt="Bannière de la catégorie batterie">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/milleniumbatterie.jpg" alt="Photo de la batterie Millenium">
-          <div class="card-body">
-            <h5 class="card-title">Millenium MX222WR Standard Set</h5>
-            <p class="card-text">Un régal pour nos amis batteurs. Le kit dont ils rêvent tous!</p>
-            <p class="price">2800€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/ddrumbatterie.jpg" alt="Photo de la batterie Ddrum">
-          <div class="card-body">
-            <h5 class="card-title">Ddrum hybrid kit Satin Satin Black</h5>
-            <p class="card-text">Un kit débutant idéal pour se lancer!</p>
-            <p class="price">2400€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums2">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/mapexbatterie.jpg" alt="Photo de la batterie Mapex">
-          <div class="card-body">
-            <h5 class="card-title">Mapex Tornado Stand Zildjian Set BK</h5>
-            <p class="card-text">Le kit des géants! Vous jouer dans un groupe de métal? Voiçi votre nouvel ami!</p>
-            <p class="price">16000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums3">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/tamabatterie.jpg" alt="Photo de la batterie Tama">
-          <div class="card-body">
-            <h5 class="card-title">Tama Impererialstar Standard BBOB</h5>
-            <p class="card-text">Vous êtes dépressif? Vous avez les cheveux longs et gras? Ce kit vous aidera à intégrer un vrai groupe de grunge!</p>
-            <p class="price">8800€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums4">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/startonebatterie.jpg" alt="Photo de la batterie Startone">
-          <div class="card-body">
-            <h5 class="card-title">Startone Star Drum set Standard</h5>
-            <p class="card-text">Tout est dans le nom! Et dans le prix aussi ;)</p>
-            <p class="price">22000€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums5">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/pearlbatterie.jpg" alt="Photo de la batterie Pearl">
-          <div class="card-body">
-            <h5 class="card-title">Pearl EXX725BR/C Export Chrome</h5>
-            <p class="card-text">Pearl ruine les oreilles de millons de parents à travers le monde. Et les votres?</p>
-            <p class="price">9999,99€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums6">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3 offset-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/dwbatterie.jpg" alt="Photo de la batterie DW">
-          <div class="card-body">
-            <h5 class="card-title">DW PDP Mainstage BK</h5>
-            <p class="card-text">La star de nos produits! Le MUST pour les batteurs!!!</p>
-            <p class="price">123456€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums7">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="card" style="width: 15rem;">
-          <img class="card-img-top" src="assets/img/pearl2batterie.jpg" alt="Photo de la batterie Pearl2">
-          <div class="card-body">
-            <h5 class="card-title">Pearl Roadshow Fusion Jet Black</h5>
-            <p class="card-text">J'écris n'imp, vous ne lirez même pas bande d'ingrats!</p>
-            <p class="price">0€</p>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal" id="drums8">Ajouter au panier</button>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Fin de partie Hans -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
->>>>>>> origin/hans_music
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/js/script.js"></script>
-</body>
-</html>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+    </html>
