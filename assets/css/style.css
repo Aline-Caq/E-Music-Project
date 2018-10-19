@@ -1,0 +1,33 @@
+/* Début Aymeric */
+#manuImg{
+  width: 50%;
+  margin-left: 35%;
+}
+#panierVide{
+  position: absolute;
+  top: 34%;
+  left: 85%;
+}
+#navGauche{
+  text-align: center;
+  position: relative;
+}
+#categ{
+  margin-top: 23%;
+}
+#decalGuitare{
+  margin-top: 8%;
+  color: black;
+}
+#decalMicro{
+  margin-top: 8%;
+  color: black;
+}
+#decalPiano{
+  margin-top: 8%;
+  color: black;
+}
+#decalBatterie{
+  margin-top: 8%;
+  color: black;
+}
