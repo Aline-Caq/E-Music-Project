@@ -1,36 +1,3 @@
-/* Début Aymeric */
-#manuImg{
-  width: 50%;
-  margin-left: 35%;
-}
-#panierVide{
-  position: absolute;
-  top: 34%;
-  left: 85%;
-}
-#navGauche{
-  text-align: center;
-  position: relative;
-}
-#categ{
-  margin-top: 23%;
-}
-#decalGuitare{
-  margin-top: 8%;
-  color: black;
-}
-#decalMicro{
-  margin-top: 8%;
-  color: black;
-}
-#decalPiano{
-  margin-top: 8%;
-  color: black;
-}
-#decalBatterie{
-  margin-top: 8%;
-  color: black;
-}  
 .carousel-img-promo {
   width: 100%;
   height: 400px;
@@ -48,9 +15,11 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 .img-parte{
-  width: 5%;
+  width: 8%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  margin: 2%;
+  margin-bottom: 5%;
 }
 .img-parte:hover{
   -webkit-filter: grayscale(0%);
@@ -65,8 +34,4 @@
 }
 .carousel-lien:hover{
   text-decoration: none;
-}
-#banguitar{
-  width: 100%;
-  height: 200px;
 }
