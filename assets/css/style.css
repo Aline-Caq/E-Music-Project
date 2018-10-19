@@ -9,64 +9,24 @@
   left: 85%;
 }
 #navGauche{
+  position: fixed;
+  left: 5%;
   text-align: center;
-  position: relative;
 }
 #categ{
   margin-top: 23%;
+  border-bottom: 2px solid #87CEEB;
 }
-#decalGuitare{
+.nav-link{
   margin-top: 8%;
   color: black;
 }
-#decalMicro{
-  margin-top: 8%;
-  color: black;
+.nav-border{
+  border-bottom: 2px solid #87CEEB;
 }
-#decalPiano{
-  margin-top: 8%;
-  color: black;
-}
-#decalBatterie{
-  margin-top: 8%;
-  color: black;
-}  
-.carousel-img-promo {
-  width: 100%;
-  height: 400px;
-}
-.promo {
-  position: relative;
-  width: 700px;
-  height: 400px;
-}
-.caption{
-  color: #FFF;
-  font-weight: bold;
-}
-.carousel-caption{
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.img-parte{
+#fleche{
   width: 5%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-.img-parte:hover{
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-.parte{
-  margin-top: 3%;
-}
-.hr-carousel{
-  background-color: #FFF;
-  width:75%;
-}
-.carousel-lien:hover{
-  text-decoration: none;
-}
-#banguitar{
-  width: 100%;
-  height: 200px;
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
 }
