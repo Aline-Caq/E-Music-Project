@@ -1,71 +1,4 @@
-/* Début Aymeric */
-#manuImg{
-  width: 50%;
-  margin-left: 35%;
-}
-#panierVide{
-  position: absolute;
-  top: 34%;
-  left: 85%;
-}
-#navGauche{
-  text-align: center;
-  position: relative;
-}
-#categ{
-  margin-top: 23%;
-}
-#decalGuitare{
-  margin-top: 8%;
-  color: black;
-}
-#decalMicro{
-  margin-top: 8%;
-  color: black;
-}
-#decalPiano{
-  margin-top: 8%;
-  color: black;
-}
-#decalBatterie{
-  margin-top: 8%;
-  color: black;
-}
-.carousel-img-promo {
-  width: 100%;
-  height: 400px;
-}
-.promo {
-  position: relative;
-  width: 700px;
-  height: 400px;
-}
-.caption{
-  color: #FFF;
-  font-weight: bold;
-}
-.carousel-caption{
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.img-parte{
-  width: 5%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-.img-parte:hover{
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-.parte{
-  margin-top: 3%;
-}
-.hr-carousel{
-  background-color: #FFF;
-  width:75%;
-}
-.carousel-lien:hover{
-  text-decoration: none;
-}
+/* début de partie Hans */
 #imagepiano{
   width:100%;
   height: 200px;
@@ -93,4 +26,23 @@
 .card{
   margin-top: 20px;
   margin-bottom: 20px;
+  border: 0px !important;
+  text-align: center;
+  align-items: center;
 }
+.tailleguitare{
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+.tailleguitare2{
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+}
+.taillemicro{
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+/* Fin de partie Hans */
