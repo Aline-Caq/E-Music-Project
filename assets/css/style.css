@@ -1,11 +1,9 @@
 .carousel-img-promo {
   width: 100%;
-  height: 400px;
 }
 .promo {
   position: relative;
-  width: 700px;
-  height: 400px;
+  width: 100%;
 }
 .caption{
   color: #FFF;
