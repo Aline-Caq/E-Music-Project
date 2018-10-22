@@ -30,3 +30,6 @@
   background-color: #FFF;
   width:75%;
 }
+.carousel-lien:hover{
+  text-decoration: none;
+}
