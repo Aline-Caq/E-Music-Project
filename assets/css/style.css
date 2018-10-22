@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .carousel-img-promo {
   width: 100%;
 }
@@ -32,4 +33,12 @@
 }
 .carousel-lien:hover{
   text-decoration: none;
+}
+=======
+/* Aline */
+.quantite{
+  height: auto;
+  width: 60px;
+
+>>>>>>> d7a6e37e936f614cfc92e04eb16819016db8d151
 }
