@@ -1,4 +1,88 @@
-<<<<<<< HEAD
+/* Début Aymeric */
+#manuImg{
+  width: 50%;
+  margin-left: 35%;
+}
+#panierVide{
+  position: absolute;
+  top: 34%;
+  left: 85%;
+}
+#navGauche{
+  position: fixed;
+  left: 5%;
+  text-align: center;
+}
+#categ{
+  margin-top: 23%;
+  border-bottom: 2px solid #87CEEB;
+}
+.nav-link{
+  margin-top: 8%;
+  color: black;
+}
+.nav-border{
+  border-bottom: 2px solid #87CEEB;
+}
+#fleche{
+  width: 5%;
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+}
+/* Aline */
+.quantite{
+  height: auto;
+  width: 60px;
+
+}
+/* début de partie Hans */
+#imagepiano{
+  width:100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#imageguitare{
+  width:100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#imagemicro{
+  width:100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#imagebatterie{
+  width:100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0px !important;
+  text-align: center;
+  align-items: center;
+}
+.tailleguitare{
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+.tailleguitare2{
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+}
+.taillemicro{
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
 .carousel-img-promo {
   width: 100%;
 }
@@ -33,12 +117,4 @@
 }
 .carousel-lien:hover{
   text-decoration: none;
-}
-=======
-/* Aline */
-.quantite{
-  height: auto;
-  width: 60px;
-
->>>>>>> d7a6e37e936f614cfc92e04eb16819016db8d151
 }
