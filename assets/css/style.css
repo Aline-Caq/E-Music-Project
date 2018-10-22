@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* début de partie Hans */
 #imagepiano{
   width:100%;
@@ -44,5 +45,12 @@
   width: 100%;
   height: 25rem;
   object-fit: cover;
+=======
+/* Aline */
+.quantite{
+  height: auto;
+  width: 60px;
+
+>>>>>>> d7a6e37e936f614cfc92e04eb16819016db8d151
 }
 /* Fin de partie Hans */
