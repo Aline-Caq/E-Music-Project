@@ -118,3 +118,9 @@
 .carousel-lien:hover{
   text-decoration: none;
 }
+.hidden{
+  visibility: hidden;
+}
+.show{
+  visibility: visible;
+}

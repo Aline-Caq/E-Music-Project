@@ -1,10 +1,4 @@
-
 $(function(){
-
-var price = $(".price-container").val();
-var quantite = $(".quantite").val();
-var totalPrice = price*quantite
-
   $('#guitar').click(function(){
     $('#card1').removeAttr('hidden', 'show');
   });
@@ -197,4 +191,92 @@ var totalPrice = price*quantite
   $('#deletecard32').click(function(){
     $('#card32').hide();
   });
+  $('#commander').click(function(){
+    var pdt1 = 800;
+    var quantite = $("#qt1").val();
+    var totalPrice1 = pdt1*quantite;
+    var pdt2 = 1600;
+    var quantite = $("#qt2").val();
+    var totalPrice2= pdt2*quantite;
+    var pdt3 = 1000;
+    var quantite = $("#qt3").val();
+    var totalPrice3 = pdt3*quantite;
+    var pdt4 = 1250;
+    var quantite = $("#qt4").val();
+    var totalPrice4 = pdt4*quantite;
+    var pdt5 = 1100;
+    var quantite = $("#qt5").val();
+    var totalPrice5 = pdt5*quantite;
+    var pdt6 = 1600;
+    var quantite = $("#qt6").val();
+    var totalPrice6 = pdt6*quantite;
+    var pdt7 = 900;
+    var quantite = $("#qt7").val();
+    var totalPrice7 = pdt7*quantite;
+    var pdt8 = 2000;
+    var quantite = $("#qt8").val();
+    var totalPrice8 = pdt8*quantite;
+    var pdt9 = 1200;
+    var quantite = $("#qt9").val();
+    var totalPrice9 = pdt9*quantite;
+    var pdt10 = 5000;
+    var quantite = $("#qt10").val();
+    var totalPrice10 = pdt10*quantite;
+    var pdt11 = 5200;
+    var quantite = $("#qt11").val();
+    var totalPrice11 = pdt11*quantite;
+    var pdt12 = 3000;
+    var quantite = $("#qt12").val();
+    var totalPrice12 = pdt12*quantite;
+    var pdt13 = 6000;
+    var quantite = $("#qt13").val();
+    var totalPrice13 = pdt13*quantite;
+    var pdt14 = 2000;
+    var quantite = $("#qt14").val();
+    var totalPrice14 = pdt14*quantite;
+    var pdt15 = 7500;
+    var quantite = $("#qt15").val();
+    var totalPrice15 = pdt15*quantite;
+    var pdt16 = 10000;
+    var quantite = $("#qt16").val();
+    var totalPrice16 = pdt16*quantite;
+    var pdt17 = 6000;
+    var quantite = $("#qt17").val();
+    var totalPrice17 = pdt17*quantite;
+    var pdt18 = 12000;
+    var quantite = $("#qt18").val();
+    var totalPrice18 = pdt18*quantite;
+    var pdt19 = 8000;
+    var quantite = $("#qt19").val();
+    var totalPrice19 = pdt19*quantite;
+    var pdt20 = 9500;
+    var quantite = $("#qt20").val();
+    var totalPrice20 = pdt20*quantite;
+    var pdt21 = 3550;
+    var quantite = $("#qt21").val();
+    var totalPrice21 = pdt21*quantite;
+    var pdt22 = 15000;
+    var quantite = $("#qt22").val();
+    var totalPrice22 = pdt22*quantite;
+    var pdt23 = 9600;
+    var quantite = $("#qt23").val();
+    var totalPrice23 = pdt23*quantite;
+    var pdt24 = 100;
+    var quantite = $("#qt24").val();
+    var totalPrice24 = pdt24*quantite;
+    var pdt25 = 2800;
+    var quantite = $("#qt25").val();
+    var totalPrice25 = pdt25*quantite;
+    var pdt26 = 2400;
+    var quantite = $("#qt26").val();
+    var totalPrice26 = pdt26*quantite;
+    var pdt27 = 16000;
+    var quantite = $("#qt27").val();
+    var totalPrice27 = pdt27*quantite;
+    var pdt28 = 8800;
+    var quantite = $("#qt28").val();
+    var totalPrice28 = pdt28*quantite;
+    var totalPrice = (totalPrice1 + totalPrice2 + totalPrice3 + totalPrice4 + totalPrice5 + totalPrice5 + totalPrice6 + totalPrice7 + totalPrice8 + totalPrice9 + totalPrice10 + totalPrice11 + totalPrice12 + totalPrice13 + totalPrice14 + totalPrice15 + totalPrice16 + totalPrice17 + totalPrice18 + totalPrice19 + totalPrice20 + totalPrice21 + totalPrice22 + totalPrice23 + totalPrice24 + totalPrice25 + totalPrice26 + totalPrice27 + totalPrice28)
+    alert(totalPrice)
   });
+});
